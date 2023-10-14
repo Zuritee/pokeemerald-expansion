@@ -1,0 +1,10 @@
+
+mapscripts CaramelTown_MapScripts {}
+
+script CaramelTown_EventScript_PlayerHouseSign {
+	msgbox("It's {PLAYER}'s House", MSGBOX_SIGN)
+}
+
+script CaramelTown_EventScript_ProfHouseSign {
+	msgbox("Cole's House & Pokemon Lab", MSGBOX_SIGN)
+}
