@@ -1,6 +1,7 @@
 {
   "group_order": [
     "gMapGroup_TownsAndRoutes",
+    "gMapGroup_IndoorCaramel",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
     "gMapGroup_IndoorDewford",
@@ -36,6 +37,7 @@
     "gMapGroup_IndoorRoute124"
   ],
   "gMapGroup_TownsAndRoutes": [
+    "CaramelTown",
     "PetalburgCity",
     "SlateportCity",
     "MauvilleCity",
@@ -92,8 +94,10 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125",
-    "CaramelTown"
+    "Underwater_Route125"
+  ],
+  "gMapGroup_IndoorCaramel": [
+    "Player_House_Interior"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/CaramelTown/border.bin",
       "blockdata_filepath": "data/layouts/CaramelTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_PLAYER_HOUSE_INTERIOR",
+      "name": "Player_House_Interior_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Player_House_Interior/border.bin",
+      "blockdata_filepath": "data/layouts/Player_House_Interior/map.bin"
     }
   ]
 }

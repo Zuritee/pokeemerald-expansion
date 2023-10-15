@@ -1061,3 +1061,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/text/birch_speech.inc"
 
 	.include "data/maps/CaramelTown/scripts.inc"
+
+	.include "data/maps/Player_House_Interior/scripts.inc"

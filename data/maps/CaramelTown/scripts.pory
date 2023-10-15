@@ -2,9 +2,21 @@
 mapscripts CaramelTown_MapScripts {}
 
 script CaramelTown_EventScript_PlayerHouseSign {
-	msgbox("It's {PLAYER}'s House", MSGBOX_SIGN)
+	msgbox("It reads: {PLAYER}'s House", MSGBOX_SIGN)
 }
 
 script CaramelTown_EventScript_ProfHouseSign {
 	msgbox("Cole's House & Pokemon Lab", MSGBOX_SIGN)
+}
+
+script CaramelTown_EventScript_TownSign {
+	msgbox("Caramel Town: The sweetest place on earth", MSGBOX_SIGN)
+}
+
+script CaramelTown_EventScript_BobHouseSign {
+	msgbox("It reads: Bob's House", MSGBOX_SIGN)
+}
+
+script CaramelTown_EventScript_BillHouseSign {
+	msgbox("It reads: Bill's House", MSGBOX_SIGN)
 }
