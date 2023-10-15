@@ -1063,3 +1063,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/CaramelTown/scripts.inc"
 
 	.include "data/maps/Player_House_Interior/scripts.inc"
+
+	.include "data/maps/Player_Room/scripts.inc"
+
+	.include "data/maps/PokemonLab/scripts.inc"

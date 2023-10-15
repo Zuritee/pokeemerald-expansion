@@ -1,1 +1,5 @@
 mapscripts Player_House_Interior_MapScripts {}
+
+script Player_House_Interior_Mom {
+    msgbox("I am your mother", MSGBOX_SIGN)
+}

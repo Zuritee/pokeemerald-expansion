@@ -97,7 +97,9 @@
     "Underwater_Route125"
   ],
   "gMapGroup_IndoorCaramel": [
-    "Player_House_Interior"
+    "Player_House_Interior",
+    "Player_Room",
+    "PokemonLab"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

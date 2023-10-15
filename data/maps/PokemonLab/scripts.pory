@@ -1,0 +1,22 @@
+mapscripts PokemonLab_MapScripts {}
+
+script PokemonLab_Sign_BookshelfOne {
+    msgbox("There are lots of books about Pokemon here.", MSGBOX_SIGN)
+}
+
+script PokemonLab_Sign_BookshelfTwo {
+    msgbox("There are books about evolution and friendship here.", MSGBOX_SIGN)
+}
+
+script PokemonLab_Sign_StrangeMachine {
+    msgbox("It's some kind of strange machine.", MSGBOX_SIGN)
+    msgbox("No clue what it could be used for.", MSGBOX_SIGN)
+}
+
+script PokemonLab_Sign_List {
+    msgbox("It looks like a shopping list.", MSGBOX_SIGN)
+}
+
+script PokemonLab_Cole {
+    msgbox("Hey! Want some pokemon??", MSGBOX_SIGN)
+}

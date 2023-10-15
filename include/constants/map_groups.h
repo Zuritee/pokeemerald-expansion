@@ -67,6 +67,8 @@
 
 // gMapGroup_IndoorCaramel
 #define MAP_PLAYER_HOUSE_INTERIOR (0 | (1 << 8))
+#define MAP_PLAYER_ROOM           (1 | (1 << 8))
+#define MAP_POKEMON_LAB           (2 | (1 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (2 << 8))

@@ -4430,6 +4430,26 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/Player_House_Interior/border.bin",
       "blockdata_filepath": "data/layouts/Player_House_Interior/map.bin"
+    },
+    {
+      "id": "LAYOUT_PLAYER_ROOM",
+      "name": "Player_Room_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Player_Room/border.bin",
+      "blockdata_filepath": "data/layouts/Player_Room/map.bin"
+    },
+    {
+      "id": "LAYOUT_POKEMON_LAB",
+      "name": "PokemonLab_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/PokemonLab/border.bin",
+      "blockdata_filepath": "data/layouts/PokemonLab/map.bin"
     }
   ]
 }
