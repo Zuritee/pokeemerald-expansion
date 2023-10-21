@@ -30,6 +30,20 @@
       "elevation": 0,
       "dest_map": "MAP_POKEMON_LAB",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_BILLS_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_ASSISTANT_HOUSE",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

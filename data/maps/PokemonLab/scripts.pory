@@ -5,12 +5,11 @@ script PokemonLab_Sign_BookshelfOne {
 }
 
 script PokemonLab_Sign_BookshelfTwo {
-    msgbox("There are books about evolution and friendship here.", MSGBOX_SIGN)
+    msgbox(format("There are books about evolution and friendship here."), MSGBOX_SIGN)
 }
 
 script PokemonLab_Sign_StrangeMachine {
-    msgbox("It's some kind of strange machine.", MSGBOX_SIGN)
-    msgbox("No clue what it could be used for.", MSGBOX_SIGN)
+    msgbox(format("It's some kind of strange machine. No clue what it could be used for."), MSGBOX_SIGN)
 }
 
 script PokemonLab_Sign_List {

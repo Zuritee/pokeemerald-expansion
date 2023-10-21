@@ -99,7 +99,9 @@
   "gMapGroup_IndoorCaramel": [
     "Player_House_Interior",
     "Player_Room",
-    "PokemonLab"
+    "PokemonLab",
+    "BillsHouse",
+    "Assistant_House"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

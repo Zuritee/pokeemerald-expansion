@@ -1067,3 +1067,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Player_Room/scripts.inc"
 
 	.include "data/maps/PokemonLab/scripts.inc"
+
+	.include "data/maps/BillsHouse/scripts.inc"
+
+	.include "data/maps/Assistant_House/scripts.inc"

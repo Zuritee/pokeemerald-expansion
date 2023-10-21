@@ -1,0 +1,7 @@
+mapscripts BillsHouse_MapScripts {}
+
+script CaramelTown_BillsHouse_Bill {
+    msgbox(format("My daughter is the Gym leader in Gumdrop City"), MSGBOX_NPC)
+    msgbox(format("She took a trip to Hoenn last year and got so many powerful pokemon."), MSGBOX_NPC)
+    msgbox(format("I'm so proud of her."), MSGBOX_NPC)
+}

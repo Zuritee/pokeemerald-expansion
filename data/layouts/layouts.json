@@ -4450,6 +4450,26 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/PokemonLab/border.bin",
       "blockdata_filepath": "data/layouts/PokemonLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_BILLS_HOUSE",
+      "name": "BillsHouse_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/BillsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/BillsHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_ASSISTANT_HOUSE",
+      "name": "Assistant_House_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Assistant_House/border.bin",
+      "blockdata_filepath": "data/layouts/Assistant_House/map.bin"
     }
   ]
 }
