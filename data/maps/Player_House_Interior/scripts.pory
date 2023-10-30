@@ -1,5 +1,38 @@
 mapscripts Player_House_Interior_MapScripts {}
 
 script Player_House_Interior_Mom {
-    msgbox("I am your mother", MSGBOX_SIGN)
+    if (flag(FLAG_RECEIVED_RUNNING_SHOES) == FALSE) {
+        msgbox(format("Mom: Professor Oak's assistant just moved in today!\p You should go talk to him,\p I heard he might have a job for you!"), MSGBOX_NPC)
+        msgbox(format("Mom: Oh wait! Don't forget to take your running shoes!"), MSGBOX_NPC)
+        setflag(FLAG_RECEIVED_RUNNING_SHOES)
+        setflag(0x8C0)
+        playfanfare(MUS_OBTAIN_ITEM)
+        lock()
+        msgbox(format("Obtained Runing Shoes!"), MSGBOX_DEFAULT)
+        release()
+        waitfanfare()
+        closemessage()
+    } elif (flag(FLAG_SYS_POKEMON_GET) == FALSE) {
+        msgbox(format("Mom: Well what are you waiting for! Go see Oak's assistant!"), MSGBOX_NPC)
+    } elif (flag(FLAG_SYS_POKEMON_GET) == TRUE && flag(FLAG_SYS_POKENAV_GET) == FALSE) {
+        msgbox(format("Mom: Oh! So he wants you to work on the Poxedex for the Talis Region?\p That sounds like a great idea! \p I guess I'll give you your birthday present early then!"), MSGBOX_NPC)
+        setflag(FLAG_SYS_POKENAV_GET)
+	    setflag(FLAG_RECEIVED_POKENAV)
+        playfanfare(MUS_OBTAIN_ITEM)
+        lock()
+        msgbox(format("Obtained The Pokenav!"), MSGBOX_DEFAULT)
+        release()
+        waitfanfare()
+        closemessage()
+    } else {
+        msgbox(format("Mom: How's your adventure going honey?"), MSGBOX_NPC)
+    }
+
+}
+
+
+script Player_House_Interior_Test {
+    msgbox(format("These lines are split by L \l just like that"), MSGBOX_NPC)
+    msgbox(format("These lines are split by N \n just like that"), MSGBOX_NPC)
+    msgbox(format("These lines are split by P \p just like that"), MSGBOX_NPC)
 }

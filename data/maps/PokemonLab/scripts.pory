@@ -1,5 +1,54 @@
 mapscripts PokemonLab_MapScripts {}
 
+script PokemonLab_Cole {
+    if (flag(FLAG_SYS_POKEDEX_GET) == FALSE) {
+        msgbox(format("Cole: Hey! You're {PLAYER}, right?\p My name is Cole Sapling and I'm professor Oak's assistant.\p If you wouldn't mind I'd like you to do some research for me, since you know your way around better than I do. \p Could you take this pokedex and document all the pokemon of the Telas Region?"), MSGBOX_NPC)
+        msgbox(format("Great! Here's the pokedex you'll use to document each pokemon you come across."), MSGBOX_NPC)
+        playfanfare(MUS_OBTAIN_ITEM)
+        lock()
+	    msgbox(format("You got the Pokedex!"), MSGBOX_DEFAULT)
+	    waitfanfare()
+        release()
+        closemessage()
+        setflag(FLAG_SYS_POKEDEX_GET)
+	    special(SetUnlockedPokedexFlags)
+	    setflag(FLAG_RECEIVED_POKEDEX_FROM_BIRCH)
+    } elif (flag(FLAG_SYS_POKEDEX_GET) == TRUE && flag(FLAG_SYS_POKEMON_GET) == FALSE) {
+        msgbox(format("Cole: What are you waiting for?\l Grab a pokemon!"), MSGBOX_NPC)
+    } elif (flag(FLAG_SYS_POKEMON_GET) == TRUE) {
+        msgbox(format("Cole: You made a great choice!"), MSGBOX_NPC)
+        msgbox(format("Would you like to give a name to your new pokemon?"), MSGBOX_YESNO)
+        if (var(VAR_RESULT) == 1) {
+            call(Common_EventScript_NameReceivedPartyMon)
+        }
+        msgbox(format("Cole: Well, you'd better go out and start collecting data! Make sure to tell your mother where you're going!\n You wouldn't want her to get worried!"), MSGBOX_NPC)
+    } else {
+        msgbox(format("Cole: You'd better go out and start collecting data!"), MSGBOX_NPC)
+    }
+}
+
+
+
+script PokemonLab_StarterBag {
+    if (flag(FLAG_SYS_POKEDEX_GET) == FALSE) {
+        msgbox(format("Cole: Hey! At least say hello before rifling through my things!"), MSGBOX_NPC)
+    } elif (flag(FLAG_SYS_POKEDEX_GET) == TRUE && flag(FLAG_SYS_POKEMON_GET) == FALSE) {
+        setflag(FLAG_SYS_POKEMON_GET)
+        fadescreen(FADE_TO_BLACK)
+        special(ChooseStarter)
+        waitstate()
+        waitmovement(0)
+        playfanfare(MUS_OBTAIN_ITEM)
+        lock()
+	    msgbox(format("You got your first pokemon!"), MSGBOX_DEFAULT)
+	    waitfanfare()
+        closemessage()
+        release()
+    } else {
+        msgbox(format("Cole: You can only take one pokemon! They're very rare and I can't just give them all away!"), MSGBOX_NPC)
+    }
+}
+
 script PokemonLab_Sign_BookshelfOne {
     msgbox("There are lots of books about Pokemon here.", MSGBOX_SIGN)
 }
@@ -16,6 +65,3 @@ script PokemonLab_Sign_List {
     msgbox("It looks like a shopping list.", MSGBOX_SIGN)
 }
 
-script PokemonLab_Cole {
-    msgbox("Hey! Want some pokemon??", MSGBOX_SIGN)
-}

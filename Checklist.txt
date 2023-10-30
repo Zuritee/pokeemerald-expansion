@@ -1,0 +1,22 @@
+[ ] -- Caramel Town --
+[X]     Fix starter choice
+[ ]     Fix text wrapping & /p /l /n commands 
+[X]     Change starting possition
+[ ]     Normalize starter movesets
+[X]     Fix unlocked movement while obtaining items
+[X]     Add name tags to dialogue
+[X]     Fix text test character
+[ ]     Add movement to professor scene
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
