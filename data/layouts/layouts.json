@@ -4470,6 +4470,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Assistant_House/border.bin",
       "blockdata_filepath": "data/layouts/Assistant_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_DANS_HOUSE",
+      "name": "DansHouse_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/DansHouse/border.bin",
+      "blockdata_filepath": "data/layouts/DansHouse/map.bin"
     }
   ]
 }

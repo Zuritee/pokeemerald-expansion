@@ -1071,3 +1071,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/BillsHouse/scripts.inc"
 
 	.include "data/maps/Assistant_House/scripts.inc"
+
+	.include "data/maps/DansHouse/scripts.inc"

@@ -3,7 +3,7 @@
   "name": "Player_Room",
   "layout": "LAYOUT_PLAYER_ROOM",
   "music": "MUS_LITTLEROOT",
-  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "region_map_section": "MAPSEC_CARAMEL_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

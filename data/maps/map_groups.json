@@ -101,7 +101,8 @@
     "Player_Room",
     "PokemonLab",
     "BillsHouse",
-    "Assistant_House"
+    "Assistant_House",
+    "DansHouse"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

@@ -1,0 +1,5 @@
+mapscripts DansHouse_MapScripts {}
+
+script DansHouse_Dan {
+    msgbox(format("My granddaughter keeps talking about how she saw a fariy in at Dragon Lake. But I don't believe it."), MSGBOX_NPC)
+}

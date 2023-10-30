@@ -71,6 +71,7 @@
 #define MAP_POKEMON_LAB           (2 | (1 << 8))
 #define MAP_BILLS_HOUSE           (3 | (1 << 8))
 #define MAP_ASSISTANT_HOUSE       (4 | (1 << 8))
+#define MAP_DANS_HOUSE            (5 | (1 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (2 << 8))
