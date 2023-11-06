@@ -7,7 +7,7 @@
 [X]     Add name tags to dialogue
 [X]     Fix text test character
 [ ]     Add movement to professor scene
-[ ]     Add second house to Caramel Town
+[X]     Add second house to Caramel Town
 [ ]
 [ ]
 [ ]
